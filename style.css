@@ -66,10 +66,11 @@ main > section{
     font-weight: 500;
 }
 
-.navbar, .banner{
+.navbar, .banner, .footer-container{
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* Banner Related Styles */
 .banner-content{
     max-width: 862px;
@@ -193,6 +194,16 @@ main{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     filter: grayscale(100%);
+}
+.footer-container{
+    background-color: rgba(255, 244, 231, 1);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    border-radius: 8px;
 }
 
 /* Responsive Media Queries */
